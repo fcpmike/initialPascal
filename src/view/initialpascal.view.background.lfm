@@ -1,0 +1,11 @@
+object FViewBackground: TFViewBackground
+  Left = 0
+  Height = 240
+  Top = 0
+  Width = 320
+  BorderStyle = bsNone
+  Color = clBlack
+  OnCreate = FormCreate
+  Position = poWorkAreaCenter
+  ShowInTaskBar = stNever
+end

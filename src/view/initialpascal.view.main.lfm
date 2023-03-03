@@ -1,0 +1,229 @@
+object FViewMain: TFViewMain
+  Left = 198
+  Height = 499
+  Top = 98
+  Width = 965
+  Caption = 'Main'
+  ClientHeight = 499
+  ClientWidth = 965
+  LCLVersion = '2.2.3.0'
+  WindowState = wsMaximized
+  object SpkToolbar1: TSpkToolbar
+    Left = 0
+    Height = 112
+    Top = 0
+    Width = 965
+    Appearance.Tab.TabHeaderFont.Color = 9126421
+    Appearance.Tab.BorderColor = 14922381
+    Appearance.Tab.CornerRadius = 4
+    Appearance.Tab.GradientFromColor = 16115934
+    Appearance.Tab.GradientToColor = 15587527
+    Appearance.Tab.GradientType = bkConcave
+    Appearance.Tab.InactiveTabHeaderFontColor = 9126421
+    Appearance.MenuButton.CaptionFont.Color = clWhite
+    Appearance.MenuButton.IdleFrameColor = 10569759
+    Appearance.MenuButton.IdleGradientFromColor = 14649927
+    Appearance.MenuButton.IdleGradientToColor = 12017961
+    Appearance.MenuButton.IdleGradientType = bkConcave
+    Appearance.MenuButton.IdleCaptionColor = clWhite
+    Appearance.MenuButton.HotTrackFrameColor = 10569759
+    Appearance.MenuButton.HotTrackGradientFromColor = 15179099
+    Appearance.MenuButton.HotTrackGradientToColor = 12478257
+    Appearance.MenuButton.HotTrackGradientType = bkConcave
+    Appearance.MenuButton.HotTrackCaptionColor = clWhite
+    Appearance.MenuButton.HotTrackBrightnessChange = 40
+    Appearance.MenuButton.ActiveFrameColor = 11095324
+    Appearance.MenuButton.ActiveGradientFromColor = 14518846
+    Appearance.MenuButton.ActiveGradientToColor = 12411174
+    Appearance.MenuButton.ActiveGradientType = bkConcave
+    Appearance.MenuButton.ActiveCaptionColor = clWhite
+    Appearance.MenuButton.ShapeStyle = mbssRounded
+    Appearance.Pane.BorderDarkColor = 14335646
+    Appearance.Pane.BorderLightColor = 16315117
+    Appearance.Pane.CaptionBgColor = 15849922
+    Appearance.Pane.CaptionFont.Color = 9126421
+    Appearance.Pane.GradientFromColor = 16115934
+    Appearance.Pane.GradientToColor = 15587527
+    Appearance.Pane.GradientType = bkConcave
+    Appearance.Element.IdleFrameColor = 14727067
+    Appearance.Element.IdleGradientFromColor = 15653832
+    Appearance.Element.IdleGradientToColor = 15323324
+    Appearance.Element.IdleGradientType = bkConcave
+    Appearance.Element.IdleInnerLightColor = 15852501
+    Appearance.Element.IdleInnerDarkColor = 15520702
+    Appearance.Element.IdleCaptionColor = 11631958
+    Appearance.Element.HotTrackFrameColor = 10211293
+    Appearance.Element.HotTrackGradientFromColor = 14351615
+    Appearance.Element.HotTrackGradientToColor = 5101567
+    Appearance.Element.HotTrackGradientType = bkConcave
+    Appearance.Element.HotTrackInnerLightColor = 12972543
+    Appearance.Element.HotTrackInnerDarkColor = 8045272
+    Appearance.Element.HotTrackCaptionColor = 8864367
+    Appearance.Element.HotTrackBrightnessChange = 40
+    Appearance.Element.ActiveFrameColor = 5535371
+    Appearance.Element.ActiveGradientFromColor = 7126014
+    Appearance.Element.ActiveGradientToColor = 4035324
+    Appearance.Element.ActiveGradientType = bkConcave
+    Appearance.Element.ActiveInnerLightColor = 961020
+    Appearance.Element.ActiveInnerDarkColor = 961020
+    Appearance.Element.ActiveCaptionColor = 8405614
+    Appearance.Element.Style = esRounded
+    TabIndex = 0
+    Images = imgList16
+    LargeImages = imgList32
+    MenuButtonCaption = 'Menu'
+    Tabs = (
+      'tabSystem'
+    )
+    object tabSystem: TSpkTab
+      CustomAppearance.Tab.TabHeaderFont.Color = 9126421
+      CustomAppearance.Tab.BorderColor = 14922381
+      CustomAppearance.Tab.CornerRadius = 4
+      CustomAppearance.Tab.GradientFromColor = 16115934
+      CustomAppearance.Tab.GradientToColor = 15587527
+      CustomAppearance.Tab.GradientType = bkConcave
+      CustomAppearance.Tab.InactiveTabHeaderFontColor = 9126421
+      CustomAppearance.MenuButton.CaptionFont.Color = clWhite
+      CustomAppearance.MenuButton.IdleFrameColor = 10569759
+      CustomAppearance.MenuButton.IdleGradientFromColor = 14649927
+      CustomAppearance.MenuButton.IdleGradientToColor = 12017961
+      CustomAppearance.MenuButton.IdleGradientType = bkConcave
+      CustomAppearance.MenuButton.IdleCaptionColor = clWhite
+      CustomAppearance.MenuButton.HotTrackFrameColor = 10569759
+      CustomAppearance.MenuButton.HotTrackGradientFromColor = 15179099
+      CustomAppearance.MenuButton.HotTrackGradientToColor = 12478257
+      CustomAppearance.MenuButton.HotTrackGradientType = bkConcave
+      CustomAppearance.MenuButton.HotTrackCaptionColor = clWhite
+      CustomAppearance.MenuButton.HotTrackBrightnessChange = 40
+      CustomAppearance.MenuButton.ActiveFrameColor = 11095324
+      CustomAppearance.MenuButton.ActiveGradientFromColor = 14518846
+      CustomAppearance.MenuButton.ActiveGradientToColor = 12411174
+      CustomAppearance.MenuButton.ActiveGradientType = bkConcave
+      CustomAppearance.MenuButton.ActiveCaptionColor = clWhite
+      CustomAppearance.MenuButton.ShapeStyle = mbssRounded
+      CustomAppearance.Pane.BorderDarkColor = 14335646
+      CustomAppearance.Pane.BorderLightColor = 16315117
+      CustomAppearance.Pane.CaptionBgColor = 15849922
+      CustomAppearance.Pane.CaptionFont.Color = 9126421
+      CustomAppearance.Pane.GradientFromColor = 16115934
+      CustomAppearance.Pane.GradientToColor = 15587527
+      CustomAppearance.Pane.GradientType = bkConcave
+      CustomAppearance.Element.IdleFrameColor = 14727067
+      CustomAppearance.Element.IdleGradientFromColor = 15653832
+      CustomAppearance.Element.IdleGradientToColor = 15323324
+      CustomAppearance.Element.IdleGradientType = bkConcave
+      CustomAppearance.Element.IdleInnerLightColor = 15852501
+      CustomAppearance.Element.IdleInnerDarkColor = 15520702
+      CustomAppearance.Element.IdleCaptionColor = 11631958
+      CustomAppearance.Element.HotTrackFrameColor = 10211293
+      CustomAppearance.Element.HotTrackGradientFromColor = 14351615
+      CustomAppearance.Element.HotTrackGradientToColor = 5101567
+      CustomAppearance.Element.HotTrackGradientType = bkConcave
+      CustomAppearance.Element.HotTrackInnerLightColor = 12972543
+      CustomAppearance.Element.HotTrackInnerDarkColor = 8045272
+      CustomAppearance.Element.HotTrackCaptionColor = 8864367
+      CustomAppearance.Element.HotTrackBrightnessChange = 40
+      CustomAppearance.Element.ActiveFrameColor = 5535371
+      CustomAppearance.Element.ActiveGradientFromColor = 7126014
+      CustomAppearance.Element.ActiveGradientToColor = 4035324
+      CustomAppearance.Element.ActiveGradientType = bkConcave
+      CustomAppearance.Element.ActiveInnerLightColor = 961020
+      CustomAppearance.Element.ActiveInnerDarkColor = 961020
+      CustomAppearance.Element.ActiveCaptionColor = 8405614
+      CustomAppearance.Element.Style = esRounded
+      Caption = 'Sistema'
+      Panes = (
+        'panClose'
+      )
+      object panClose: TSpkPane
+        Caption = 'Fechar'
+        Items = (
+          'spkBtnClose'
+        )
+        object spkBtnClose: TSpkLargeButton
+          Action = acClose
+          Caption = 'Fechar'
+          LargeImageIndex = 0
+        end
+      end
+    end
+  end
+  object acList: TActionList
+    Images = imgList16
+    Left = 544
+    Top = 368
+    object acClose: TAction
+      Category = 'Sistema'
+      Caption = 'Fechar'
+      ImageIndex = 0
+    end
+  end
+  object imgList16: TImageList
+    Left = 664
+    Top = 328
+    Bitmap = {
+      4C7A010000001000000010000000CC0000000000000078DAAD53390EC230100C
+      9FE1390914882EA140A2E507F0203AE01B28025A84DDA4A632E5E009D9601B39
+      12322B8DB4F2CEEC651B400607E5F4365E4CEEDB2A57FBAA504D0BEBF38C3104
+      7C41966164396BCB371688C090436EA82D0B751CD07920D7CDD1D5C52FA046E6
+      757B5ECD350EBB079633DD73E9F38C3177967E574E5EF268E7936975047D1A63
+      DE1CB9DE747BF66A09FF521B5CEBA797CF9BE373470873502BC61C5FDA379A98
+      5EEA4A1F51FD40FFCC217DC4FA4FDD5FEAFDA5BE9F7FBCDFD4FF93F27F5F468A
+      A3BD
+    }
+  end
+  object imgList32: TImageList
+    Height = 32
+    Width = 32
+    Left = 664
+    Top = 384
+    Bitmap = {
+      4C7A010000002000000020000000A30100000000000078DACD97C14AC3301CC6
+      3D88FA0082FA10BE433D4EB02DC20E82AC3DE8D1837A154FBBEB6DBECB4E831D
+      7C013D28D866951EA41D6C73272731DFDA6A29699B669B69E083D2FCF3FDFE49
+      9334A194AE5101691A5D6FE9EE816D3AF796E176999E99C6B1F0DC451D62104B
+      057DCB7472E46F5B3AB963FE211315548836682BCB6D369F362CDDBD615EA30A
+      DCAC46F0805715F699FEB6C3DAF617E066D587A708DB36BC7DCB208325B26391
+      01BC0BD987CE2E8BF596CFFE95070697AD395BB6E13EAE903D17186065F9ACAE
+      BD6A764AED34FBF4D8DD63EFA6456D6E2F7D7A7DFE5EEA8D18C496C44DC1FCEB
+      3BE914B2AF7CFA39F9A6C1C757610EA8430C62D1A6643E76C0BE68BC6EC67B58
+      6EBFE19794BC1C127652E639148FC318EC96E936CAC633EDCBCB41248627B06D
+      833C887CD33C7F5976B416C0263D9139CBE30CC3191D063329763C077A96E9BC
+      88AE1B5E0EF26CA6883DA9B276E18F7E670BC6A1123BD2448A1F70F8A1245FF9
+      F82F30FFD83864BF45D5F9A77AFDA9DE7F54EFBFAAFF3F75F8FFAA3E7FD4E1FC
+      A5FAFC5987F3771DEE1F75B87FD5E1FEF95FF7EF1F6690E817
+    }
+  end
+  object imgList64: TImageList
+    Height = 64
+    Width = 64
+    Left = 664
+    Top = 440
+    Bitmap = {
+      4C7A010000004000000040000000CB0200000000000078DAED9B314B1C4114C7
+      251609985A0804F2398414A98206DCD183AB126F9744B092E837B00C41FC0469
+      84D80B621104AD2C2C0C789560C8CC1C8262208585C64227EFDDEEEA918BE7DD
+      CE9BDDBD9BB7F0E78E65F7CDFB3D76DECCDB9D31C60C19879A797D3A12093D59
+      0BF4C748C84FA190ABA1D0DFE0B71E0AF52B16FE6F9E5BC56BE26BF524DE6B1C
+      FBE78479FAC7684DA8D930501BC077093219758936D016DA2C33F3FCC4D1E368
+      4ACF83AFBBE0F7B505F37DBA46DBD806B65516EEA525F3A816C810FCD30E98EF
+      93C636B1ED22D923A1DE24FDD8142359471FF2E6FE50F9F902DADF298EBB4D3B
+      E8531EECB569FD1272D25989D863814FE89BD3E73D50EFA1ADABD2B1DFE90A7D
+      A4E6AE56CD30D85E2931F7BF5A419FA9D861CC59EF23F6A6D0678A1840BF5AEE
+      37F6969CB06C95EBE271DDF4B390215B9E576370FF9F7EE7470664E985FD6DE5
+      F839DC773200ECA94E90A9EB3E2FD4D600B1A7DAEA6E8C97E303C81E8F09C0F6
+      502D03D71DD88F3D2EC633123B079D6A268A7C3F5BD5A6BE7F61D6BEFC266347
+      5B68136DBB1A0FA257F2492874C39AFDFB85490F8A18A08DF440DBF631D00D64
+      6DCF797291929D2206ADECB431908BEDFC7A8F9ADD2606FF63A78B81DE6B657F
+      5751CFE0FC4DD6BC847DF3A1A397187462BF8D01B46991136F90F936EF093947
+      D5476D634069AB631E04E63B7EB54999A7B2FA9D177BCCAF36E3FAF6EC29D53C
+      DFC6FF3CD9D3BAA0C91E3402CA794A168E02D893FAB811445372817AAED60B4F
+      61ECCDDC2D17A01F7C7631D7EE96AB28F6240720FB5757F506450C5CB12742F6
+      6D9735974D0C1CB3A3B6E11938745D776689410EEC26613FCFA3F6EE250679B0
+      273AF79D9F9F7FBFF39FEFE39FEFF31FDFE7BFBED73FBED7BFBEBFFFE0F75FFC
+      FED3F7F7DFFCFD83BF7FF9FEFD93BF7FF3FA075EFFC2EB9F78FD1BAF7FE4F5AF
+      BCFE99D7BFF3FE07DEFFC2FB9F78FF1BEF7FE4FDAFBCFF7950F7BFFF05042945
+      25
+    }
+  end
+end

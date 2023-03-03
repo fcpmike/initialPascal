@@ -1,0 +1,51 @@
+object FViewAguarde: TFViewAguarde
+  Left = 462
+  Height = 125
+  Top = 263
+  Width = 300
+  BorderStyle = bsNone
+  ClientHeight = 125
+  ClientWidth = 300
+  Position = poScreenCenter
+  ShowInTaskBar = stNever
+  LCLVersion = '2.2.3.0'
+  object panTop: TPanel
+    Left = 0
+    Height = 100
+    Top = 0
+    Width = 300
+    Align = alTop
+    Caption = 'Aguarde...'
+    Font.Height = -32
+    Font.Name = 'Comic Sans MS'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+  end
+  object panBottom: TPanel
+    Left = 0
+    Height = 25
+    Top = 100
+    Width = 300
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 25
+    ClientWidth = 300
+    TabOrder = 1
+    object ShapeAnimacao: TShape
+      AnchorSideTop.Control = panBottom
+      AnchorSideTop.Side = asrCenter
+      Left = 0
+      Height = 7
+      Top = 9
+      Width = 65
+      Brush.Color = 10046464
+    end
+  end
+  object timAnimation: TTimer
+    Interval = 200
+    OnTimer = timAnimationTimer
+    Left = 232
+    Top = 8
+  end
+end
